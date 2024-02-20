@@ -1,0 +1,75 @@
+#hero-project {
+  background-image: url(./image/projectdetail-img/hero.png);
+}
+.all-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 118px 0;
+}
+.client-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 500px;
+  gap: 50px;
+}
+.client-data h4 {
+  margin: 20px 0;
+  color: #4d5053;
+  font-family: 'DM Serif Display', serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+}
+.client-data p {
+  margin: 20px 0;
+  color: #4d5053;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+}
+.look-bedrooms {
+  display: flex;
+  flex-direction: column;
+  max-width: 658px;
+}
+.look-bedrooms p {
+  color: #4d5053;
+
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 33px */
+  letter-spacing: 0.22px;
+}
+.look-bedrooms h2 {
+  color: #292f36;
+  font-family: 'DM Serif Display', serif;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%; /* 62.5px */
+  letter-spacing: 1px;
+}
+.img-project img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+@media (max-width:600px) {
+  .look-bedrooms h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+  .look-bedrooms p {
+    font-size: 15px;
+  }
+  .all-data{
+    margin: 75px 0;
+  }
+}

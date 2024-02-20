@@ -1,0 +1,46 @@
+#hero-project {
+  background-image: url(./image/team-img/team.png);
+}
+.all-person{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(228px, 2fr));
+    gap: 50px;
+    margin: 80px 0;
+}
+.person-data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.person-data h3 {
+  margin: 0;
+  margin-top: 17px;
+  color: #292f36;
+  text-align: center;
+  font-family: "DM Serif Display", serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 37.5px */
+  letter-spacing: 0.25px;
+}
+.person-data p {
+  margin: 0;
+  color: #4d5053;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.18px;
+}
+.person-data .img1 {
+  border-radius: 25px;
+}
+ .icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 37px;
+  margin-top: 16px;
+  border-radius:none !important;
+}
